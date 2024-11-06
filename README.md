@@ -15,4 +15,5 @@ This interpreter replicates Awk's core functionalities, enabling Java to execute
 **Special Character Management:** The interpreter uses several enums to manage and recognize special characters intrinsic to Awk, enhancing its ability to parse and interpret Awk-specific syntax accurately.
 
 **Purpose:**
+
 The project serves as a learning tool to deepen understanding of language interpretation, parsing, and the unique characteristics of the Awk language.
