@@ -1,0 +1,60 @@
+BEGIN{
+x = 3; y = 4;
+z = x + y;
+print (z);
+print("-----------------------------")
+while(x < 5)
+{
+print("Printing x < 5:", x)
+x = x + 1;
+}
+print("-----------------------------")
+for(i = 0; i < 5; i++;)
+{
+print("Printing i for loop: " , i)
+}
+c=2;
+print("-----------------------------")
+do
+{
+print("Printing C for do while loop: " , c)
+c = c + 1;
+}while(c<=6)
+f = 3;
+if(f == 5)
+{
+print (f);
+}
+else if(f == 6)
+{
+print (f);
+}
+else{
+print ("f is 3 and therefore printed here",f);
+}
+}
+function call(x,y)
+{
+print("This is a function call: " , x , y);
+}
+function call(x,y){
+print("This is a function call: " , x , y);
+}
+END{
+print("-----------------------------")
+print("This is the end of the program");
+b = 6 / 3;
+c = 10 % 2;
+d = 7 * 6;
+e = 5 - 3;
+f = 5 + 3;
+j = 5 ^ 3;
+print("The Following printed is the results of math operations" , b , c , d , e, f, j)
+myArray[0] = 1;
+myArray[1] = 2;
+myArray[2] = 3;
+myArray[3] = 4;
+print("-----------------------------")
+print ($1 > 10) ? "5 is greater than 10" : "5 is not greater than 10";
+print("-----------------------------")
+}
